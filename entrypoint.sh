@@ -47,7 +47,7 @@ fi
 # Create exclude file with default values anyway.
 echo ".git .github exclude.txt ${ASSETS_DIR} node_modules" | tr " " "\n" >> exclude.txt
 
-SVN_URL="http://plugins.svn.wordpress.org/${SLUG}/"
+SVN_URL="https://plugins.svn.wordpress.org/${SLUG}/"
 SVN_DIR="/github/svn-${SLUG}"
 
 # Checkout just trunk and assets for efficiency
